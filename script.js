@@ -1,7 +1,7 @@
 'use strict';
 
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');// + превращает строку в числовой тип данных
 
 const personalMovieDB = {
     count: numberOfFilms,
